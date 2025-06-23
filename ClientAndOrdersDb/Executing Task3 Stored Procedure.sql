@@ -1,0 +1,1 @@
+EXEC SelectCustomersWithOrdersByCountry @Country = 'Bulgaria';
