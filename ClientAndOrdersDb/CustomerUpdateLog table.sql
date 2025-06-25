@@ -1,0 +1,11 @@
+CREATE TABLE CustomerUpdateLog (
+	LogID INT IDENTITY PRIMARY KEY,
+	CustomerID INT,
+	OldName NVARCHAR(100),
+	NewName NVARCHAR(100),
+	OldCountry NVARCHAR(50),
+	NewCountry NVARCHAR(50),
+	ChangedAt DATETIME DEFAULT GETDATE(),
+	ChangedBy NVARCHAR(100)
+);
+
