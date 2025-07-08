@@ -7,5 +7,6 @@ CREATE TABLE Courses (
     Description NVARCHAR(MAX),
     CreditHours INT NOT NULL,
     StartDate DATETIME2 NOT NULL,
-    EndDate DATETIME2 NOT NULL
+    EndDate DATETIME2 NOT NULL,
+    InstructorID INT NOT NULL FOREIGN KEY REFERENCES Instructors(InstructorID)
 );
