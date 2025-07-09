@@ -1,0 +1,6 @@
+SELECT TOP (1000) [EnrollementID]
+      ,[StudentID]
+      ,[CourseID]
+      ,[EnrollmentDate]
+      ,[CompletionStatus]
+  FROM [OnlineCourseEnrollmentSystemDb].[dbo].[Enrollments]

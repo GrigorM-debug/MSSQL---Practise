@@ -1,0 +1,6 @@
+SELECT TOP (1000) [InstructorID]
+      ,[FirstName]
+      ,[LastName]
+      ,[Email]
+      ,[Specialization]
+  FROM [OnlineCourseEnrollmentSystemDb].[dbo].[Instructors]
