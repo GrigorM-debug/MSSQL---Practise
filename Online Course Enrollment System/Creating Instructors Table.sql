@@ -1,6 +1,5 @@
 USE OnlineCourseEnrollmentSystemDb;
 
---Check before creating
 CREATE TABLE Instructors (
     InstructorID INT IDENTITY(1, 1) PRIMARY KEY NOT NULL,
     FirstName NVARCHAR(50) NOT NULL,

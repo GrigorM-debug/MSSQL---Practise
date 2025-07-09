@@ -1,0 +1,4 @@
+USE OnlineCourseEnrollmentSystemDb;
+
+CREATE NONCLUSTERED INDEX IX_Students_RegistrationDate
+ON Students (RegistrationDate)

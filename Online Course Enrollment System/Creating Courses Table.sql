@@ -1,9 +1,8 @@
 USE OnlineCourseEnrollmentSystemDb;
 
---Check before creating
 CREATE TABLE Courses (
     CourseID INT IDENTITY(1, 1) PRIMARY KEY NOT NULL,
-    Title NVARCHAR(100) NOT NULL,
+    Title NVARCHAR(100) NOT NULL UNIQUE,
     Description NVARCHAR(MAX),
     CreditHours INT NOT NULL,
     StartDate DATETIME2 NOT NULL,
