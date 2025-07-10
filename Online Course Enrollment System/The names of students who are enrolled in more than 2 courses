@@ -1,0 +1,11 @@
+-- 5. The names of students who are enrolled in more than 2 courses.
+
+USE OnlineCourseEnrollmentSystemDb;
+
+SELECT 
+    s.FirstName, 
+    s.LastName
+FROM Students AS s
+JOIN Enrollments AS e ON e.StudentID = s.StudentID
+GROUP BY s.FirstName, s.LastName
+HAVING COUNT(*) > 2;

@@ -1,0 +1,7 @@
+-- 3. Students who are currently 'In Progress' in at least one course.
+USE OnlineCourseEnrollmentSystemDb;
+
+SELECT * 
+FROM Students AS s
+JOIN Enrollments AS e ON e.StudentID = s.StudentID
+WHERE e.CompletionStatus = 'In Progress';

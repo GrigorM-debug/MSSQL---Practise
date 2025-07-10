@@ -1,0 +1,8 @@
+-- 4. The total number of enrollments for each course, ordered by the number of enrollments in descending order.
+
+USE OnlineCourseEnrollmentSystemDb;
+
+SELECT e.CourseID, COUNT(*) AS TotalNumberOfEnrollments
+FROM Enrollments AS e
+GROUP BY e.CourseID
+ORDER BY COUNT(*) DESC
