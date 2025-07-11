@@ -1,0 +1,5 @@
+USE OnlineCourseEnrollmentSystemDb;
+
+--Delete all enrollments for a specific student.
+
+DELETE FROM Enrollments FROM Enrollments AS e WHERE e.StudentID = 12;

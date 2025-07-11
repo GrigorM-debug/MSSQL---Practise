@@ -1,0 +1,6 @@
+USE OnlineCourseEnrollmentSystemDb;
+
+-- Mark a specific enrollment as 'Completed'.
+UPDATE Enrollments
+SET CompletionStatus = 'Completed'
+WHERE EnrollementID = 19;

@@ -1,0 +1,6 @@
+USE OnlineCourseEnrollmentSystemDb;
+
+-- Increase the credit hours of all courses taught by a specific instructor by 1.
+UPDATE Courses
+SET CreditHours += 1
+WHERE InstructorID = 2;

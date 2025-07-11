@@ -1,0 +1,5 @@
+USE OnlineCourseEnrollmentSystemDb;
+
+-- Delete a specific enrollment.
+
+DELETE FROM Enrollments FROM Enrollments AS e WHERE e.EnrollementID = 21;

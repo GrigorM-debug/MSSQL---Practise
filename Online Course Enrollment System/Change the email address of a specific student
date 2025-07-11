@@ -1,0 +1,7 @@
+USE OnlineCourseEnrollmentSystemDb;
+
+-- Change the email address of a specific student.
+UPDATE Students
+SET Email = 'Andre.Aetrov91@example.org'
+WHERE StudentID = 12;
+

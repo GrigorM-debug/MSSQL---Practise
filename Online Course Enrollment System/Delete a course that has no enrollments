@@ -1,0 +1,5 @@
+USE OnlineCourseEnrollmentSystemDb;
+
+-- Delete a course that has no enrollments.
+DELETE FROM Courses FROM Courses AS c
+WHERE c.CourseID NOT IN (SELECT CourseID FROM Enrollments);
