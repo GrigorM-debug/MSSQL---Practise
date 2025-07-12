@@ -1,0 +1,9 @@
+USE BookStoreDB
+
+CREATE TABLE BookGenre (
+	BookID INT NOT NULL,
+	GenreID INT NOT NULL,
+	PRIMARY KEY (BookID, GenreID),
+	FOREIGN KEY (BookID) REFERENCES Books(BookID),
+    FOREIGN KEY (GenreID) REFERENCES Genres(GenreID)
+)
