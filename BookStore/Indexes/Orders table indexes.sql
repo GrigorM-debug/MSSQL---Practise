@@ -1,0 +1,11 @@
+CREATE NONCLUSTERED INDEX IX_OrderID
+ON Orders (OrderID)
+
+CREATE NONCLUSTERED INDEX IX_CustomerID
+ON Orders (CustomerID)
+
+CREATE NONCLUSTERED INDEX IX_OrderStatus
+ON Orders (OrderStatus)
+
+CREATE NONCLUSTERED INDEX IX_OrderDate
+ON Orders (OrderDate)

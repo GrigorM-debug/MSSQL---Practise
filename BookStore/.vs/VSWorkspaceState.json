@@ -1,7 +1,18 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\CRUD",
+    "\\CRUD\\Create",
+    "\\Indexes",
+    "\\Insert",
+    "\\Stored Procedures",
+    "\\Stored Procedures\\usp_PlaceOrder",
+    "\\Stored Procedures\\usp_UpdateBookStock",
+    "\\Triggers",
+    "\\Types",
+    "\\Types\\Table Types",
+    "\\Views"
   ],
-  "SelectedNode": "\\Create Orders table.sql",
+  "SelectedNode": "\\Insert\\Insert data into OrderItems.sql",
   "PreviewInSolutionExplorer": false
 }
