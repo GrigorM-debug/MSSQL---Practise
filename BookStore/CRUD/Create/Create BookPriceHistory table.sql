@@ -1,0 +1,6 @@
+CREATE TABLE BookPriceHistory (
+	BookID INT NOT NULL,
+	OldPrice DECIMAL(19, 4) NOT NULL,
+	NewPrice DECIMAL(19, 4) NOT NULL,
+	ChangeDate DATETIME2 NOT NULL
+)
