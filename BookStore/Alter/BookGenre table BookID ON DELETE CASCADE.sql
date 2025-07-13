@@ -1,0 +1,11 @@
+USE [BookStoreDB]
+GO
+
+ALTER TABLE [dbo].[BookGenre] DROP CONSTRAINT [FK__BookGenre__BookI__4222D4EF]
+GO
+
+ALTER TABLE [dbo].[BookGenre]  WITH CHECK ADD FOREIGN KEY([BookID])
+REFERENCES [dbo].[Books] ([BookID]) ON DELETE CASCADE
+GO
+
+
