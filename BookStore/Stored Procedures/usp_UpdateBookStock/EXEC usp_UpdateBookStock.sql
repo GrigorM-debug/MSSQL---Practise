@@ -1,0 +1,1 @@
+EXEC usp_UpdateBookStock @BookID = 1, @QuantityChange = -1
