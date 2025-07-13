@@ -1,0 +1,3 @@
+CREATE TYPE BookType AS TABLE
+(BookID   INT
+)
